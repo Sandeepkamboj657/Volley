@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationPage">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+        android:paddingRight="10dp">
+
+        <EditText
+            android:id="@+id/regi_roll_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Roll num"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/regi_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/regi_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/regi_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile"
+            android:inputType="phone"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/regi_qualifications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Qualifications"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+        <Button
+            android:id="@+id/regi_button_registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:id="@+id/regi_button_show_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show details"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
